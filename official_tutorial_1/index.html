@@ -31,6 +31,16 @@
       @keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
     </style>
 
+    <style amp-custom>
+      /* any custom style goes here */
+      body {
+        background-color: gainsboro;
+      }
+      amp-img {
+        background-color: gray;
+        border: 1px solid black;
+      }
+    </style>
     <noscript>
       <style amp-boilerplate>
         body {
@@ -41,9 +51,12 @@
         }
       </style>
     </noscript>
+
   
   </head>
   <body>
     <h1>Welcome to the mobile web</h1>
+    <amp-img src="ampLogo.jpg" alt="Welcome" height="300" width="300"></amp-img>
+
   </body>
 </html>
